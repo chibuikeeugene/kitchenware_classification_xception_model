@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "kitchenware_model_package"
-version = "0.1.0"
-description = "computer vision model - efficientnet for classifiying kitchen utensils"
+version = "0.0.2"
+description = "computer vision model - xception model for classifiying kitchen utensils"
 authors = ["chibuikeeugene <chibuikeeugene@gmail.com>"]
 readme = "README.md"
 

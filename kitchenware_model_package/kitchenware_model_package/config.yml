@@ -34,3 +34,6 @@ learning_rate: 0.0005
 drop_rate: 0.2
 
 dense_layer_first_inner_size: 100
+
+# for test purposes
+sample_test_image: 0412.jpg

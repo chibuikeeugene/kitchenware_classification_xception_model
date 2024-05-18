@@ -29,6 +29,7 @@ class ModelConfig(BaseModel):
     test_size: float
     drop_rate: float
     dense_layer_first_inner_size: int
+    sample_test_image: str
 
 class Config(BaseModel):
     """ master config object"""
