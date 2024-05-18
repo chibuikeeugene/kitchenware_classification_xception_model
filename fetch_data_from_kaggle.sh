@@ -1,6 +1,6 @@
 # ! ~/.local/bin/kaggle datasets download -d agrigorev/kitchenware-extra-images
-! ~/.local/bin/kaggle competitions download -c kitchenware-classification && \
-! mkdir  ./kitchenware-data && \
-! chmod +w ./kitchenware-data && \
-! unzip ./kitchenware-classification.zip -d ./kitchenware-data && \
-! rm -R ./kitchenware-classification.zip
+! ~/.local/bin/kaggle competitions download -c kitchenware-classification -p /Users/eugene/Personal_Projects/Real_ML_Project/kitchenware_classification_xception_model/kitchenware_model_package/kitchenware_model_package/datasets && \
+mkdir  /Users/eugene/Personal_Projects/Real_ML_Project/kitchenware_classification_xception_model/kitchenware_model_package/kitchenware_model_package/datasets/kitchenware-data && \
+chmod +w /Users/eugene/Personal_Projects/Real_ML_Project/kitchenware_classification_xception_model/kitchenware_model_package/kitchenware_model_package/datasets/kitchenware-data && \
+unzip /Users/eugene/Personal_Projects/Real_ML_Project/kitchenware_classification_xception_model/kitchenware_model_package/kitchenware_model_package/datasets/kitchenware-classification.zip -d /Users/eugene/Personal_Projects/Real_ML_Project/kitchenware_classification_xception_model/kitchenware_model_package/kitchenware_model_package/datasets/kitchenware-data && \
+rm -R /Users/eugene/Personal_Projects/Real_ML_Project/kitchenware_classification_xception_model/kitchenware_model_package/kitchenware_model_package/datasets/kitchenware-classification.zip

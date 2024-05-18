@@ -12,6 +12,9 @@ scikit-learn = "^1.4.2"
 tensorflow = "^2.16.1"
 tensorflow-hub = "^0.16.1"
 kaggle = "^1.6.12"
+strictyaml = "^1.7.3"
+loguru = "^0.7.2"
+pydantic = "^2.7.1"
 
 
 [tool.poetry.group.dev.dependencies]
