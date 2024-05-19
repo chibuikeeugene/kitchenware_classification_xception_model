@@ -1,16 +1,10 @@
-import os
-# # ====== experimentation block ======== #
-# import sys
-# current_path  = os.path.dirname(os.path.abspath(__file__))
-# parent_path = os.path.dirname(current_path)
-# sys.path.append(parent_path)
-# # ====== experimentation block ======== #
+import os,sys
 
-from config import core
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from config.core import *
-from data_processing import data_manager as dm
-from data_processing import preprocessor as pp
+from kitchenware_model_package.config.core import *
+from kitchenware_model_package.data_processing import data_manager as dm
+from kitchenware_model_package.data_processing import preprocessor as pp
 import numpy as np
 from loguru import logger
 from kitchenware_model_package import __version__

@@ -1,6 +1,7 @@
 from tensorflow.keras.applications.xception import preprocess_input
-from config.core import config
+from kitchenware_model_package.config.core import config
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
 import pandas as pd
 from loguru import logger
 

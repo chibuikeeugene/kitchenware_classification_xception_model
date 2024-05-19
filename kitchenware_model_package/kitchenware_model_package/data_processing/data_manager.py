@@ -7,15 +7,8 @@ from typing import Union
 from loguru import logger
 from sklearn.model_selection import train_test_split
 
-# # ====== experimentation block ======== #
-# current_path  = os.path.dirname(os.path.abspath(__file__))
-# parent_path = os.path.dirname(current_path)
-# sys.path.append(parent_path)
-# from PIL import Image
-# # ====== experimentation block ======== #
 
-
-from config.core import KITCHENWARE_DATA_DIR, config, TRAINED_MODEL_DIR, IMAGES
+from kitchenware_model_package.config.core import KITCHENWARE_DATA_DIR, config, TRAINED_MODEL_DIR, IMAGES
 import tensorflow as tf
 
 

@@ -1,16 +1,11 @@
-import os, sys
-# # ====== experimentation block ======== #
-# current_path  = os.path.dirname(os.path.abspath(__file__))
-# parent_path = os.path.dirname(current_path)
-# sys.path.append(parent_path)
-# # ====== experimentation block ======== #
+import os,sys
 
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-
-from data_processing import data_manager, preprocessor
-from config.core import config
-from data_processing.data_manager import retain_best_model
-from config import core
+from kitchenware_model_package.data_processing import data_manager, preprocessor
+from kitchenware_model_package.config.core import config
+from kitchenware_model_package.data_processing.data_manager import retain_best_model
+from kitchenware_model_package.config import core
 from model import make_model
 import tensorflow as tf
 import keras
