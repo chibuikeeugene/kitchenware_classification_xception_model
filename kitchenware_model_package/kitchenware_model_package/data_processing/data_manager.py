@@ -122,7 +122,7 @@ def retain_best_model(path: Path) -> None:
                 os.remove(os.path.join(folder_path, file))
                 logger.info(f"Removed file: {file}")
             except:
-                logger.error(f"Error removing file: {file}, {e}")
+                logger.error(f"Error removing file: {file}")
 
     logger.info(f"Retained file: {best_file}")
 

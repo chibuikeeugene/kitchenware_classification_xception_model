@@ -3,3 +3,4 @@
 /kitchenware_env
 /.kaggle
 /dist
+/.pytest_cache
