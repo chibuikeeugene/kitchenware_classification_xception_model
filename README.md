@@ -4,10 +4,10 @@ A machine learning program that classifies correctly kitchen utensils within the
 
 ## Data set and its description  
 
-| Data              | Description                            |
-|-------------------|----------------------------------------|
-| Image             | the image object                       |
-| Label             | class of the image                     |
+| Data              | Description                                                                   |
+|-------------------|-------------------------------------------------------------------------------|
+| Image             | the image object(jpg format)                                                  |
+| Label             | class of the image (glass, cup, spoon, plate, knife, fork)                    |
 
 ## Dependencies and packages  
 
@@ -31,3 +31,6 @@ A machine learning program that classifies correctly kitchen utensils within the
 
 Source code link:
 [Github link](https://github.com/chibuikeeugene/kitchenware_classification_xception_model.git)
+
+Python index package:
+[Pypi link](https://pypi.org/project/kitchenware_model_package/)
