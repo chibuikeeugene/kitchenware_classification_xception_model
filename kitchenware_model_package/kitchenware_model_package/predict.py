@@ -77,4 +77,9 @@ def make_bulk_prediction(*, images_data: Path) -> dict:
         version = __version__
     )
 
-    
+# # Test our predict funtion
+# if __name__ == "__main__":
+#     make_single_img_prediction(
+#         folder= IMAGES,
+#         file= config.modelConfig.sample_test_image
+#     )

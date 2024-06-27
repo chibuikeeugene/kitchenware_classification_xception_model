@@ -1,6 +1,8 @@
-/.DS_Store
+*.DS_Store
 /.venv
 /kitchenware_env
 /.kaggle
 /dist
+*.pyc
 /.pytest_cache
+/__pycache__
