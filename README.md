@@ -1,6 +1,6 @@
 # KITCHEN WARE CLASSIFICATION
 
-A machine learning program that classifies correctly kitchen utensils within the kitchen using machine aided assistance(computer vision) for a disabled/non disabled entity. This program uses a **neural network algorithm** to detect kitchen utensils.
+A machine learning program api that classifies correctly kitchen utensils within the kitchen using machine aided assistance(computer vision) for a disabled/non disabled entity. This program uses a **neural network algorithm** to detect kitchen utensils.
 
 ## Data set and its description  
 
